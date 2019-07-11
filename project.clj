@@ -16,7 +16,7 @@
                  [compojure "1.3.4" :exclusions [clj-time]]
                  [javax.servlet/servlet-api "2.5"]
                  [ring-cors "0.1.7"]
-                 [fullcontact/camelsnake "0.9.0"]
+                 [fullcontact/camelsnake "0.9.1"]
                  [fullcontact/full.json "0.10.1"]
                  [fullcontact/full.metrics "0.11.4"]
                  [fullcontact/full.async "0.9.0"]

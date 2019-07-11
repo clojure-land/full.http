@@ -2,7 +2,7 @@
 
 echo "Build and Install the FullContact Async HTTP Lib..."
 
-lein build
+lein uberjar
 
 ## As: leiningen: [fullcontact-http "1.0.5-SNAPSHOT"]
 mvn install:install-file -Dfile=./target/full.http-1.0.5-SNAPSHOT.jar -DgroupId=fullcontact-http -DartifactId=fullcontact-http -Dname=fullcontact-http -Dversion=1.0.5-SNAPSHOT -Dpackaging=jar
