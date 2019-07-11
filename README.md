@@ -1,5 +1,7 @@
 # full.http
 
+-- A Clojure-Land Fork of the FullContact full.http library to upgrad and operate it with 1) other versions of HttpKit and, 2) to run it on JVM 11+
+
 [![Clojars Project](https://img.shields.io/clojars/v/fullcontact/full.http.svg)](https://clojars.org/fullcontact/full.http)
 
 Async HTTP client and server on top of http-kit and core.async
